@@ -46,5 +46,6 @@ $app->get('/newutil',
 $app->post('/createutil',
           '\blogapp\controleur\UtilisateurControleur:cree')
     ->setName('util_cree');
+ 
 
 $app->run();
